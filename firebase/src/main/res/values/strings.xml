@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="email_and_password">Электронная почта и пароль</string>
+    <string name="entarence">Электронная почта и пароль</string>
     <string name="email">Электронная почта</string>
     <string name="password">Пароль</string>
-    <string name="sign_in">Войти</string>
-    <string name="sign_out">Выйти</string>
-    <string name="create_account">Создать аккаунт</string>
-    <string name="verify_email">Подтвердить адрес эл. почты</string>
+    <string name="reg">Войти</string>
+    <string name="signout">Выйти</string>
+    <string name="newacc">Создать аккаунт</string>
+    <string name="verification">Подтвердить адрес эл. почты</string>
     <string name="emailpassword_status_fmt">Email User: %1$s (verified:
 %2$b)</string>
     <string name="firebase_status_fmt">Firebase UID: %s</string>

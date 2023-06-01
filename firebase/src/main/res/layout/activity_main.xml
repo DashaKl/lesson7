@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#9575CD"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -25,11 +26,11 @@
             android:textSize="18sp" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="198dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="120sp"
             android:gravity="center"
-            android:text="@string/email_and_password"
+            android:text="@string/entarence"
             android:textSize="18sp" />
 
         <TextView
@@ -49,7 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="250sp"
         android:layout_alignParentBottom="true"
-        android:background="@color/browser_actions_bg_grey"
+        android:background="#9475CC"
         android:orientation="vertical">
 
         <LinearLayout
@@ -87,16 +88,20 @@
                 android:layout_width="148dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="25sp"
-                android:backgroundTint="@color/white"
-                android:hint="@string/sign_in" />
+                android:backgroundTint="@color/purple_500"
+                android:hint="@string/reg"
+                android:textColor="#FEFEFE"
+                android:textColorHint="#FEFEFE"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btCreateAccount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="25sp"
-                android:backgroundTint="@color/white"
-                android:hint="@string/create_account" />
+                android:backgroundTint="@color/purple_500"
+                android:hint="@string/newacc"
+                android:textColorHint="#FEFEFE" />
         </LinearLayout>
 
         <LinearLayout
@@ -111,16 +116,18 @@
                 android:layout_width="188dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="25sp"
-                android:backgroundTint="@color/white"
-                android:hint="@string/verify_email" />
+                android:backgroundTint="@color/purple_500"
+                android:hint="@string/verification"
+                android:textColorHint="#FEFEFE" />
 
             <Button
                 android:id="@+id/btsignOut"
                 android:layout_width="130sp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="25sp"
-                android:backgroundTint="@color/white"
-                android:hint="@string/sign_out" />
+                android:backgroundTint="@color/purple_500"
+                android:hint="@string/signout"
+                android:textColorHint="#FEFEFE" />
         </LinearLayout>
     </LinearLayout>
 
