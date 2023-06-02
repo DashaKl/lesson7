@@ -23,25 +23,6 @@
           "other_platform_oauth_client": []
         }
       }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:616760203530:android:e9955cc18502762b2ec2f3",
-        "android_client_info": {
-          "package_name": "com.mirea.klinevskayadm.firebaseauth"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAk4dYgHMqq2vysWPRcpECVN62x88LVTk4"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
     }
   ],
   "configuration_version": "1"
